@@ -37,7 +37,6 @@ public class HotelService {
 
     public String gerenciamentoHotel() {
 
-        sistemaHotel.alertaCadastro();
         Usuario usuario = cadastroUsuario();
 
         System.out.println("Digite o valor da hospedagem: ");
